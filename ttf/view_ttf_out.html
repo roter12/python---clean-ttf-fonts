@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Print All Characters with Custom TTF File</title>
+    <style>
+        @font-face {
+            font-family: CustomFont;
+            src: url(Rollercoaster1.ttf);
+        }
+        
+        .custom-font {
+            font-family: CustomFont;
+            font-size: 180px;
+        }
+
+        @font-face {
+            font-family: CustomFont1;
+            src: url(Rollercoaster1_out.ttf);
+        }
+        
+        .custom-font1 {
+            font-family: CustomFont1;
+            font-size: 180px;
+        }
+    </style>
+</head>
+<body>
+    <div class="custom-font1">
+        ABCDEFGHIJKLMNOPQRSTUVWXYZ<br>
+        abcdefghijklmnopqrstuvwxyz<br>
+        0123456789<br>
+        !@#$%^&*()-_=+[]{}|;':",.<>/?<br>
+    </div>
+    <br/>
+    <br/>
+    <br/>
+    <script>
+        var swi = true;
+        function other() {
+            if (swi) {
+                document.getElementsByClassName('custom-font').style.fontFamily = 'custom-font1';
+                swi = false;
+                console.log('0')
+            } else {
+                document.getElementsByClassName('custom-font').style.fontFamily = 'custom-font';
+                swi = true;
+                console.log('1')
+            }
+        }
+    </script>
+</body>
