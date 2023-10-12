@@ -1,5 +1,6 @@
 
 import sys
+import glob
 import os.path
 from fontTools import ttLib
 from fontTools.ttLib import TTFont
@@ -52,17 +53,40 @@ def clean_ttf(input_file, output_file):
 
 # Check arguments.
 if len(sys.argv) < 2:
-    print("Please provide an input TTF file as an argument.")
+    print("Please provide an input TTF file or directory as an argument.")
     print(f"Usage: python {os.path.basename(sys.argv[0])} <ttf-path>")
     sys.exit(1)
 
 # Check input file.
-input_filename = sys.argv[1]
-if not os.path.isfile(input_filename):
-    print(f"Error: Not exists - {input_filename}")
-    sys.exit(1)
+ttf_path = sys.argv[1]
+ttf_files = []
+if os.path.isdir(ttf_path):
+    for file_path in glob.glob(ttf_path + os.sep +"*.ttf"):
+        ttf_files.append(file_path)
+
+    if len(ttf_files) == 0:
+        print("No TTF file in directory: " + ttf_path)
+        exit(1)
+
+    output_dir = ttf_path + os.sep + "output" + os.sep
+else:
+    if not os.path.isfile(ttf_path):
+        print(f"Wrong argument: {ttf_path}")
+        print("Please provide an input TTF file or directory as an argument.")
+        sys.exit(1)
+
+    ttf_files.append(ttf_path)
+    output_dir = os.path.dirname(ttf_path) + os.sep + "output" + os.sep
+
+
+# Make output directory.
+if not os.path.isdir(output_dir):
+    os.mkdir(output_dir)
 
 # Clean input file.
-output_filename = input_filename.replace(".ttf", "_out.ttf")
-clean_ttf(input_filename, output_filename)
-print(f"\nResult: {output_filename}")
+for ttf_file in ttf_files:
+    output_file = output_dir + os.path.basename(ttf_file)
+    print(ttf_file + " -> " + output_file)
+    clean_ttf(ttf_file, output_file)
+
+print("\nFinished!")
