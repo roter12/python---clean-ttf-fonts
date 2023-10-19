@@ -19,7 +19,8 @@ def get_metrix(input_file):
         
         #print(f"'{glyph_name}' : yMax = {yMax}, yMin = {yMin}")
         if yMax != None:
-            print(f"'{glyph_name}' : {(yMax-yMin)/(hhea_table.ascent-hhea_table.descent)},")
+            #print(f"'{glyph_name}' : {(yMax-yMin)/(hhea_table.ascent-hhea_table.descent)},") # scale
+            print(f"'{glyph_name}' : {(yMin-hhea_table.descent)/(hhea_table.ascent-hhea_table.descent)},") # offset
 
 # Check arguments.
 if len(sys.argv) < 2:
