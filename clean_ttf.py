@@ -13,7 +13,7 @@ db_s = {'.notdef' : 0.66650390625,'exclam' : 0.681640625,'quotedbl' : 0.24609375
 db_o = {'.notdef' : 0.25,'exclam' : 0.24169921875,'quotedbl' : 0.67919921875,'numbersign' : 0.25,'dollar' : 0.15771484375,'percent' : 0.15673828125,'ampersand' : 0.2333984375,'quotesingle' : 0.67919921875,'parenleft' : 0.1298828125,'parenright' : 0.1298828125,'asterisk' : 0.69189453125,'plus' : 0.37353515625,'comma' : 0.1044921875,'hyphen' : 0.42529296875,'period' : 0.24169921875,'slash' : 0.1298828125,'zero' : 0.2412109375,'one' : 0.25,'two' : 0.25,'three' : 0.2412109375,'four' : 0.25,'five' : 0.2412109375,'six' : 0.2412109375,'seven' : 0.2412109375,'eight' : 0.2412109375,'nine' : 0.2412109375,'colon' : 0.24169921875,'semicolon' : 0.1044921875,'less' : 0.31396484375,'equal' : 0.51513671875,'greater' : 0.31396484375,'question' : 0.24169921875,'at' : 0.2333984375,'A' : 0.25,'B' : 0.25,'C' : 0.2333984375,'D' : 0.25,'E' : 0.25,'F' : 0.25,'G' : 0.2333984375,'H' : 0.25,'I' : 0.25,'J' : 0.111328125,'K' : 0.25,'L' : 0.25,'M' : 0.25,'N' : 0.25,'O' : 0.2333984375,'P' : 0.25,'Q' : 0.13134765625,'R' : 0.25,'S' : 0.23291015625,'T' : 0.25,'U' : 0.2333984375,'V' : 0.25,'W' : 0.25,'X' : 0.25,'Y' : 0.25,'Z' : 0.25,'bracketleft' : 0.1298828125,'backslash' : 0.1298828125,'bracketright' : 0.1298828125,'asciicircum' : 0.53564453125,'underscore' : 0.1181640625,'grave' : 0.73828125,'a' : 0.2412109375,'b' : 0.22900390625,'c' : 0.2412109375,'d' : 0.234375,'e' : 0.2412109375,'f' : 0.25,'g' : 0.0712890625,'h' : 0.25,'i' : 0.25,'j' : 0.07666015625,'k' : 0.25,'l' : 0.25,'m' : 0.25,'n' : 0.25,'o' : 0.2412109375,'p' : 0.0634765625,'q' : 0.0634765625,'r' : 0.25,'s' : 0.2412109375,'t' : 0.2412109375,'u' : 0.2412109375,'v' : 0.25,'w' : 0.25,'x' : 0.25,'y' : 0.07177734375,'z' : 0.25,'braceleft' : 0.1298828125,'bar' : 0.005859375,'braceright' : 0.1298828125,'asciitilde' : 0.86279296875,'Adieresis' : 0.25,'Aring' : 0.25,'Ccedilla' : 0.03515625,'Eacute' : 0.25,'Ntilde' : 0.25,'Odieresis' : 0.2333984375,'Udieresis' : 0.2333984375,'aacute' : 0.2412109375,'agrave' : 0.2412109375,'acircumflex' : 0.2412109375,'adieresis' : 0.2412109375,'atilde' : 0.2412109375,'aring' : 0.2412109375,'ccedilla' : 0.0615234375,'eacute' : 0.2412109375,'egrave' : 0.2412109375,'ecircumflex' : 0.2412109375,'edieresis' : 0.2412109375,'iacute' : 0.25,'igrave' : 0.25,'icircumflex' : 0.25,'idieresis' : 0.25,'ntilde' : 0.25,'oacute' : 0.2412109375,'ograve' : 0.2412109375,'ocircumflex' : 0.2412109375,'odieresis' : 0.2412109375,'otilde' : 0.2412109375,'uacute' : 0.2412109375,'ugrave' : 0.2412109375,'ucircumflex' : 0.2412109375,'udieresis' : 0.2412109375,'dagger' : 0.12109375,'degree' : 0.72607421875,'cent' : 0.244140625,'sterling' : 0.2333984375,'section' : 0.123046875,'bullet' : 0.4501953125,'paragraph' : 0.1318359375,'germandbls' : 0.2412109375,'registered' : 0.2333984375,'copyright' : 0.2333984375,'trademark' : 0.53662109375,'acute' : 0.73828125,'dieresis' : 0.76904296875,'notequal' : 0.4052734375,'AE' : 0.25,'Oslash' : 0.18310546875,'infinity' : 0.41162109375,'plusminus' : 0.294921875,'lessequal' : 0.25,'greaterequal' : 0.25,'yen' : 0.25,'mu' : 0.060546875,'partialdiff' : 0.23583984375,'summation' : 0.0166015625,'product' : 0.0166015625,'pi' : 0.23193359375,'integral' : -0.01318359375,'ordfeminine' : 0.58154296875,'ordmasculine' : 0.58154296875,'Omega' : 0.25,'ae' : 0.2412109375,'oslash' : 0.18994140625,'questiondown' : -0.00927734375,'exclamdown' : -0.00927734375,'logicalnot' : 0.25,'radical' : 0.25,'florin' : 0.10986328125,'approxequal' : 0.43603515625,'Delta' : 0.25,'guillemotleft' : 0.31787109375,'guillemotright' : 0.31787109375,'ellipsis' : 0.24169921875,'Agrave' : 0.25,'Atilde' : 0.25,'Otilde' : 0.2333984375,'OE' : 0.24609375,'oe' : 0.2412109375,'endash' : 0.42529296875,'emdash' : 0.42529296875,'quotedblleft' : 0.67724609375,'quotedblright' : 0.67724609375,'quoteleft' : 0.67724609375,'quoteright' : 0.67724609375,'divide' : 0.40234375,'lozenge' : 0.22412109375,'ydieresis' : 0.07177734375,'Ydieresis' : 0.25,'fraction' : 0.25,'Euro' : 0.2412109375,'guilsinglleft' : 0.31787109375,'guilsinglright' : 0.31787109375,'fi' : 0.25,'fl' : 0.25,'daggerdbl' : 0.11279296875,'periodcentered' : 0.5107421875,'quotesinglbase' : 0.1044921875,'quotedblbase' : 0.1044921875,'perthousand' : 0.15673828125,'Acircumflex' : 0.25,'Ecircumflex' : 0.25,'Aacute' : 0.25,'Edieresis' : 0.25,'Egrave' : 0.25,'Iacute' : 0.25,'Icircumflex' : 0.25,'Idieresis' : 0.25,'Igrave' : 0.25,'Oacute' : 0.2333984375,'Ocircumflex' : 0.2333984375,'apple' : 0.22216796875,'Ograve' : 0.2333984375,'Uacute' : 0.2333984375,'Ucircumflex' : 0.2333984375,'Ugrave' : 0.2333984375,'dotlessi' : 0.25,'circumflex' : 0.7490234375,'tilde' : 0.76318359375,'macron' : 0.78955078125,'breve' : 0.75537109375,'dotaccent' : 0.76953125,'ring' : 0.7314453125,'cedilla' : 0.0615234375,'hungarumlaut' : 0.73828125,'ogonek' : 0.12353515625,'caron' : 0.73583984375,'Scaron' : 0.23291015625,'scaron' : 0.2412109375,'brokenbar' : 0.08349609375,'Eth' : 0.25,'eth' : 0.2412109375,'Yacute' : 0.25,'yacute' : 0.07177734375,'Thorn' : 0.25,'thorn' : 0.0634765625,'multiply' : 0.3916015625,'onesuperior' : 0.5166015625,'twosuperior' : 0.5166015625,'threesuperior' : 0.51123046875,'onehalf' : 0.25,'onequarter' : 0.25,'threequarters' : 0.25,'.notdef#3' : 1.0078125,'.notdef#4' : 0.9951171875,'.notdef#5' : 0.9951171875,'.notdef#6' : 0.9892578125,'.notdef#7' : 1.00634765625,'.notdef#8' : 1.0078125,'.notdef#9' : 0.9951171875,'.notdef#10' : 0.9951171875,'.notdef#11' : 0.9892578125,'.notdef#12' : 1.0078125,'.notdef#13' : 0.9951171875,'.notdef#14' : 0.9951171875,'.notdef#15' : 0.9892578125,'.notdef#16' : 1.00634765625,'.notdef#17' : 1.0078125,'.notdef#18' : 0.9951171875,'.notdef#19' : 0.9951171875,'.notdef#20' : 0.9892578125,'.notdef#21' : 1.00634765625,'.notdef#22' : 0.9892578125,'.notdef#23' : 1.0078125,'.notdef#24' : 0.9951171875,'.notdef#25' : 0.9951171875,'.notdef#26' : 0.9892578125,'.notdef#27' : 1.0078125,'.notdef#28' : 0.76904296875,'currency' : 0.36181640625}
 
 # Clean font.
-def clean_ttf(input_file, output_file, not_scaling = False):
+def clean_ttf(input_file, output_file, not_scaling = False, not_align = False):
     font = TTFont(input_file)
     hhea_table = font['hhea']
     glyphPen = TTGlyphPen(font.getGlyphSet())
@@ -27,7 +27,7 @@ def clean_ttf(input_file, output_file, not_scaling = False):
             continue
 
         # Calculate yOffset
-        if not hasattr(glyph, 'yMin'):
+        if not_align == True or not hasattr(glyph, 'yMin'):
             yOffset = 0
         else:
             if glyph_name not in db_o:
@@ -53,14 +53,17 @@ def clean_ttf(input_file, output_file, not_scaling = False):
 if len(sys.argv) < 2:
     print("Please provide an input TTF file or directory as an argument.")
     print("If you want only align, not scaling, add '-a' option.")
-    print(f"Usage: python {os.path.basename(sys.argv[0])} [-a] <ttf-path>")
+    print("If you want only scaling, not align, add '-s' option.")
+    print(f"Usage: python {os.path.basename(sys.argv[0])} [-a/-s] <ttf-path>")
     sys.exit(1)
 
 # Check input file.
 not_scaling = False
+not_align = False
 if len(sys.argv) == 3:
     ttf_path = sys.argv[2]
     not_scaling = True if sys.argv[1] == "-a" else False
+    not_align = True if sys.argv[1] == "-s" else False
 else:
     ttf_path = sys.argv[1]
 
@@ -93,6 +96,6 @@ for ttf_file in ttf_files:
     output_file = output_dir + os.path.basename(ttf_file)
     output_file = output_file.replace(".ttf", "_out.ttf")
     print(ttf_file + " -> " + output_file)
-    clean_ttf(ttf_file, output_file, not_scaling)
+    clean_ttf(ttf_file, output_file, not_scaling, not_align)
 
 print("\nFinished!")
